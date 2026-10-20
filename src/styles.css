@@ -14,3 +14,25 @@
 @media(max-width:1000px){.about-content{gap:30px}.about-orbital{height:300px}.orbital-ring{border-width:17px}.ring-c{border-width:12px}.tool-orbital{width:220px;height:220px;right:4%;top:130px}.education-cube{right:3%;top:70px;width:110px}}
 @media(max-width:640px){.about-content{gap:15px;margin-top:20px}.about-orbital{height:250px;max-width:280px;justify-self:center}.orbital-float{inset:15%}.orbital-ring{border-width:17px}.ring-c{border-width:12px}.orbit-spark{font-size:28px}.education .section-title{max-width:100%}.education-cube{position:relative;top:auto;right:auto;width:85px;height:100px;margin:0 0 22px auto}.education-cube .glass-float{scale:.75}.education-cube+.section-label{margin-top:0}.tool-orbital{width:125px;height:125px;top:95px;right:10px;opacity:.65}.tool-orbital .orbital-ring{border-width:9px}.tool-orbital .ring-c{border-width:7px}.tool-orbital .orbit-satellite{width:10px;height:10px}.tool-orbital .orbit-spark{font-size:18px}.tools .section-title{position:relative;z-index:1}.tools-intro{position:relative;z-index:1}.contact-cube{width:75px;height:90px;right:15px;top:105px;opacity:.75}.contact-cube .glass-float{scale:.65}.contact .section-label{padding-right:0}.hero-orbit-accent{width:42px;height:42px;border-width:6px;right:2%;top:10%}.hero-float-star{font-size:32px;left:1%;bottom:15%}}
 @media(prefers-reduced-motion:reduce){.orbital-axis{transform:rotateX(12deg) rotateY(25deg) rotateZ(-16deg)}.glass-cube{transform:rotateX(-22deg) rotateY(30deg) rotateZ(12deg)}}
+
+/* Capabilities lead; the tool list supports the demonstrated work. */
+.skills-section .section-title{font-size:clamp(62px,9vw,130px)}
+.skills-section .tool-orbital{width:245px;height:245px;top:120px;right:12%;opacity:.85}
+.skills-intro{font-size:17px;line-height:1.6;color:#6c6374;max-width:450px;margin:28px 0 38px}
+.capability-grid{position:relative;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.capability-card{padding:25px 28px 22px;border:1px solid #31203c22;border-radius:22px;background:#fff9;display:flex;flex-direction:column;min-width:0;transition:background .25s,border-color .25s}
+.capability-card:hover{border-color:#9363b866;background:#fff}
+.capability-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:20px}
+.capability-icon{display:flex;align-items:center;justify-content:center;width:46px;height:46px;border-radius:14px;background:linear-gradient(135deg,#e7d8f3,#f6effc);border:1px solid #9e7cb32e;color:#73508f;box-shadow:inset 0 1px 0 #fff,0 4px 8px #b39dc41a}
+.capability-index{font-size:11px;font-weight:400;letter-spacing:1px;color:#9b8ba6}
+.capability-card h3{font-size:25px;font-weight:500;letter-spacing:-.4px;line-height:1.2;margin-bottom:10px}
+.capability-card>p{font-size:14px;line-height:1.65;color:#746b7c;max-width:390px;margin-bottom:22px}
+.capability-proof{display:flex;align-items:center;justify-content:space-between;gap:15px;font-size:10px;letter-spacing:.35px;color:#6c4287;border-top:1px solid #73508f25;padding-top:14px;margin-top:auto;min-height:40px}
+.capability-proof>span{min-width:0}
+.capability-proof:hover{opacity:1;color:#472260}
+.supporting-tools{display:flex;align-items:flex-start;gap:28px;border-top:1px solid #31203c26;margin-top:28px;padding-top:25px}
+.supporting-tools h3{font-size:11px;text-transform:uppercase;letter-spacing:1px;font-weight:500;white-space:nowrap;line-height:2.4}
+.supporting-tool-list{display:flex;flex-wrap:wrap;gap:8px 18px;color:#75697e;font-size:12px;line-height:2.2}
+.supporting-tool-list>span{white-space:nowrap}
+@media(max-width:1000px){.skills-section .tool-orbital{right:6%;width:200px;height:200px;top:115px}.capability-card{padding:22px}.capability-card h3{font-size:23px}}
+@media(max-width:640px){.skills-section .section-title{font-size:15vw}.skills-section .tool-orbital{width:135px;height:135px;top:125px;right:12px;opacity:.7}.skills-intro{font-size:14px;max-width:270px;margin:25px 0 28px}.capability-grid{grid-template-columns:1fr;gap:12px}.capability-card{padding:20px}.capability-top{margin-bottom:15px}.capability-icon{width:40px;height:40px;border-radius:12px}.capability-card h3{font-size:23px}.capability-card>p{font-size:14px;margin-bottom:15px}.capability-proof{font-size:10px;min-height:44px}.supporting-tools{flex-direction:column;gap:8px;margin-top:24px;padding-top:20px}.supporting-tool-list{gap:4px 16px;font-size:12px}.capability-proof>svg{min-width:16px}}
