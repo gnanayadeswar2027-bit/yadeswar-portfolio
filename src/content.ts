@@ -64,23 +64,46 @@ export const capabilities = [
   {
     name: 'Building products', icon: 'product',
     description: 'Taking an idea to a working application with AI-assisted tools.',
-    evidence: 'GoThreadly + StockFlow', href: '#project-01',
+    examples: [{ name: 'GoThreadly', href: '#project-01' }, { name: 'StockFlow', href: '#project-04' }],
   },
   {
     name: 'Research & automation', icon: 'workflow',
     description: 'Studying an industry and building workflows around practical problems.',
-    evidence: 'PropTech research + tested workflow', href: '#project-02',
+    examples: [{ name: 'PropTech research & workflow', href: '#project-02' }],
   },
   {
-    name: 'Running a business', icon: 'business',
-    description: 'Sourcing products, setting prices, building a storefront, and selling.',
-    evidence: 'Crystal & Gemstone Business + Vaishnav Bazaar', href: '#project-03',
-  },
-  {
-    name: 'Business operations', icon: 'operations',
-    description: 'Coordinating orders and suppliers, resolving customer issues, and reporting.',
-    evidence: 'Doodlez, VYBN + Vel Solution', href: '#experience',
+    name: 'Business & operations', icon: 'business',
+    description: 'Sourcing, pricing, customer sales, order fulfilment, and supplier coordination.',
+    examples: [{ name: 'Business ventures', href: '#project-03' }, { name: 'Internships', href: '#experience' }],
   },
 ];
 
-export const supportingTools = ['Google AI Studio', 'Make.com', 'Figma', 'Microsoft Excel', 'GitHub', 'Render'];
+export const toolGroups = [
+  { name: 'Business & presentation', items: [
+    { name: 'Microsoft Excel', mark: 'X', brand: 'excel' },
+    { name: 'PowerPoint', mark: 'P', brand: 'powerpoint' },
+    { name: 'Zoho ERP', mark: 'Z', brand: 'zoho' },
+  ] },
+  { name: 'Design & content', items: [
+    { name: 'Canva', mark: 'C', brand: 'canva' },
+    { name: 'Google Stitch', mark: 'S', brand: 'stitch' },
+  ] },
+  { name: 'Building & automation', items: [
+    { name: 'n8n', mark: 'n8n', brand: 'n8n' },
+    { name: 'Make', mark: 'M', brand: 'make' },
+    { name: 'Google AI Studio', mark: 'AI', brand: 'aistudio' },
+    { name: 'Lovable', mark: 'L', brand: 'lovable' },
+    { name: 'Cursor', mark: '↗', brand: 'cursor' },
+  ] },
+];
+
+export type ProjectMediaItem = { src: string; alt: string; caption: string; width: number; height: number };
+export const projectMedia: Record<string, ProjectMediaItem[]> = {
+  growth: [{ src: '/images/projects/gothreadly-landing.png', alt: 'GoThreadly landing page and product interface preview', caption: 'Current landing page · interface demo', width: 1280, height: 720 }],
+  workflow: [{ src: '/images/projects/make-workflow.png', alt: 'Make.com property-visit workflow linking Google Sheets, a router, and Gmail notifications', caption: 'Make.com · public workflow preview', width: 1280, height: 720 }],
+  crystal: [
+    { src: '/images/projects/crystal-customer-interaction.jpg', alt: 'Customer interaction at the crystal and gemstone stall', caption: 'Customer interaction · DLF CyberHub', width: 960, height: 1280 },
+    { src: '/images/projects/crystal-stall.jpg', alt: 'Full stall setup for the Masters’ Union business event', caption: 'The stall setup', width: 704, height: 960 },
+  ],
+  inventory: [{ src: '/images/projects/stockflow-dashboard.png', alt: 'StockFlow inventory dashboard showing stock tracking and procurement features', caption: 'StockFlow · application interface', width: 1280, height: 720 }],
+};
