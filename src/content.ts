@@ -75,10 +75,13 @@ export const toolGroups = [
     { name: 'Microsoft Excel', mark: 'X', brand: 'excel' },
     { name: 'PowerPoint', mark: 'P', brand: 'powerpoint' },
     { name: 'Zoho ERP', mark: 'Z', brand: 'zoho' },
+    { name: 'Zoho OMS', mark: 'Z', brand: 'zoho' },
   ] },
   { name: 'Design & content', items: [
     { name: 'Canva', mark: 'C', brand: 'canva' },
     { name: 'Google Stitch', mark: 'S', brand: 'stitch' },
+    { name: 'Figma', mark: 'F', brand: 'figma' },
+    { name: 'Midjourney', mark: 'MJ', brand: 'midjourney' },
   ] },
   { name: 'Building & automation', items: [
     { name: 'n8n', mark: 'n8n', brand: 'n8n' },

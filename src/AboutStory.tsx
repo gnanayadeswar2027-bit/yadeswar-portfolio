@@ -15,9 +15,9 @@ const chapters = [
     note: 'I had to make time for both.', label: 'Making room for both.',
   },
   {
-    tab: 'What I try next', word: 'onward', title: 'There’s a lot I still want to try.',
-    body: 'Today, that curiosity takes me into businesses, products, and real-world problems. GoThreadly, StockFlow, and my automation experiments are ways of putting an idea into practice and seeing where it goes.',
-    note: 'Still figuring it out. Still trying.', label: 'The next page is still being written.',
+    tab: 'What I try next', word: 'onward', title: 'There’s more I want to build.',
+    body: 'I’m excited by ideas that make me want to get up and build. There’s a lot I still want to explore, and I don’t see that stopping. I want to keep trying, making things, and finding out what I can do next.',
+    note: 'Still curious. Still building.', label: 'The next page is still being written.',
   },
 ];
 
@@ -54,10 +54,10 @@ function Sketch({ scene }: { scene: number }) {
       {scene === 2 && <>
         <motion.path {...draw} d="M52 297c82 62 161 4 120-31s-74 39 6 41 158-53 200-153" stroke="#9c84b4" strokeWidth="2" strokeDasharray="5 8"/>
         <g className="sketch-plane" filter="url(#story-shadow)"><path d="m210 137 205-66-66 201-44-86z" fill="url(#story-paper)" stroke="#8b769d" strokeWidth="1.5" strokeLinejoin="round"/><path d="m305 186 110-115-83 137-27 42z" fill="url(#story-violet)"/><path d="m332 208 17 64" stroke="#8b769d"/></g>
-        <g transform="rotate(-9 146 192)"><rect x="57" y="151" width="139" height="73" rx="9" fill="#e6ddee" stroke="#c9b8d9"/><circle cx="75" cy="170" r="3" fill="#a78abd"/><path d="M86 170h29" stroke="#b6a1c6" strokeWidth="2"/><text x="73" y="202" className="sketch-project">GoThreadly</text></g>
-        <g transform="rotate(7 271 323)"><rect x="224" y="292" width="128" height="62" rx="9" fill="#fffaf0" stroke="#cfbdad"/><path d="M240 309h21m-21 8h48" stroke="#c3b298" strokeWidth="2"/><text x="240" y="339" className="sketch-project">StockFlow</text></g>
+        <g transform="rotate(-9 146 192)"><rect x="57" y="151" width="139" height="73" rx="9" fill="#e6ddee" stroke="#c9b8d9"/><circle cx="75" cy="170" r="3" fill="#a78abd"/><path d="M86 170h29" stroke="#b6a1c6" strokeWidth="2"/><text x="73" y="202" className="sketch-project">An idea</text></g>
+        <g transform="rotate(7 271 323)"><rect x="224" y="292" width="128" height="62" rx="9" fill="#fffaf0" stroke="#cfbdad"/><path d="M240 309h21m-21 8h48" stroke="#c3b298" strokeWidth="2"/><text x="240" y="339" className="sketch-project">What’s next?</text></g>
         <path d="m107 91 5 14 15 4-15 4-5 15-4-15-15-4 15-4z" fill="#b19ac4"/>
-        <text x="55" y="372" transform="rotate(-6 55 372)" className="sketch-hand">Let’s see where this goes.</text>
+        <text x="55" y="398" transform="rotate(-6 55 398)" className="sketch-hand">Let’s see where this goes.</text>
       </>}
     </svg>
     <span className="story-art-label">{chapters[scene].label}</span>
@@ -80,7 +80,7 @@ export default function AboutStory() {
   }
   return <section id="about" className="about story-section section-pad" aria-labelledby="story-title">
     <div className="section-label"><span>02 / A FEW PAGES FROM MY LIFE</span><span className="small-cross" aria-hidden="true">✳</span></div>
-    <div className="story-heading"><h2 id="story-title">Still figuring it out.<br/><span>Still trying.</span></h2><p>A little about the person<br className="story-desktop-break"/> behind the projects.</p></div>
+    <div className="story-heading"><h2 id="story-title">Always curious.<br/><span>Still building.</span></h2><p>A little about the person<br className="story-desktop-break"/> behind the projects.</p></div>
     <div className="story-book">
       <div className="story-book-top"><span className="story-book-label"><span className="story-ink-dot"/> THE PERSONAL PAGES</span><span className="story-edition">YADESWAR / AN ONGOING STORY</span></div>
       <div className="story-tabs" role="tablist" aria-label="Chapters of my story">{chapters.map((item, index) => <button key={item.tab} ref={el => { tabs.current[index] = el; }} id={`story-tab-${index}`} role="tab" aria-selected={scene === index} aria-controls="story-panel" tabIndex={scene === index ? 0 : -1} onKeyDown={event => navigateTab(event, index)} onClick={() => setScene(index)}><span>0{index + 1}</span>{item.tab}{scene === index && <motion.i layoutId="story-tab-underline" transition={{ duration: reduce ? 0 : 0.3 }}/>}</button>)}</div>
