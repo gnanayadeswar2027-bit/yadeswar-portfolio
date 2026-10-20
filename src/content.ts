@@ -32,7 +32,6 @@ export const projects = [
     tags: ['Inventory tracking', 'Procurement', 'AI-assisted building'],
     link: 'https://stockflow-inventory-gfw0.onrender.com/', label: 'Explore StockFlow', visual: 'inventory',
   },
-
 ];
 
 export const experiences = [
@@ -49,7 +48,7 @@ export const experiences = [
   {
     company: 'Vel Solution', role: 'Management Trainee',
     period: 'April 2024 – June 2024', location: 'Chennai',
-    description: 'Prepared business reports, organized documentation, and supported management decisions.',
+    description: 'Prepared business reports, organised documentation, and supported management decisions.',
   },
 ];
 

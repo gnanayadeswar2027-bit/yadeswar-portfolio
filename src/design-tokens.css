@@ -1,0 +1,15 @@
+:root {
+  --font-body: 'Kanit', sans-serif;
+  --color-bg: #0c0c0c;
+  --color-panel: #101012;
+  --color-text: #d7e2ea;
+  --color-muted: #989ca7;
+  --color-accent: #b298cb;
+  --color-paper: #f3f1f5;
+  --color-ink: #171419;
+  --color-ink-muted: #6c6374;
+  --color-ink-soft: #756a7e;
+  --color-ink-accent: #8452a8;
+  --color-border-dark: #ffffff1c;
+  --color-border-light: #9377a125;
+}

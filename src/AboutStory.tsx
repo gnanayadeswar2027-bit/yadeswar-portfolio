@@ -10,9 +10,9 @@ const chapters = [
     note: 'Different interests. The same curiosity.', label: 'A question is a good place to start.',
   },
   {
-    tab: 'When things go wrong', word: 'again', title: 'Not every attempt goes to plan.',
-    body: 'Failing a test in ninth standard made me take studying more seriously. I worked harder towards my twelfth. But marks were never the whole story—I wanted to keep exploring what I could do.',
-    note: 'A setback is part of the story, too.', label: 'Leave room for another attempt.',
+    tab: 'Finding a balance', word: 'balance', title: 'Learning to find a balance.',
+    body: 'In Class 9, I was focused on cricket and training for under-16 competition. I failed my final maths exam and had to take a retest. That experience taught me to balance cricket and school, and to manage more than one commitment at a time.',
+    note: 'I had to make time for both.', label: 'Making room for both.',
   },
   {
     tab: 'What I try next', word: 'onward', title: 'There’s a lot I still want to try.',
@@ -42,14 +42,14 @@ function Sketch({ scene }: { scene: number }) {
         <g className="sketch-ball"><circle cx="111" cy="155" r="35" fill="#c59c79"/><path d="M95 124c24 16 32 37 28 63M102 123c24 16 32 37 28 62" stroke="#fff3dd" strokeWidth="2" strokeDasharray="3 4"/></g>
         <g transform="rotate(20 365 279)"><path d="M337 252q28-25 56 0v54q-28 24-56 0z" fill="#d5c29f" stroke="#9c8462" strokeWidth="1.5"/><ellipse cx="365" cy="252" rx="28" ry="11" fill="#f1e6d0" stroke="#9c8462"/><ellipse cx="365" cy="252" rx="11" ry="5" fill="#6c5b49"/><path d="m344 260 1 44m12-40 1 44m13-44 1 42m12-45 1 40" stroke="#9c8462"/></g>
         <path d="m366 93 5 16 17 4-17 5-5 17-5-17-17-5 17-4z" fill="#a584c2"/>
-        <text x="57" y="344" transform="rotate(-7 57 344)" className="sketch-hand">what if I gave it a go?</text>
+        <text x="57" y="344" transform="rotate(-7 57 344)" className="sketch-hand">What if I gave it a go?</text>
       </>}
       {scene === 1 && <>
         <motion.path {...draw} d="M47 292c50-83 108 51 144-15s-59-132 18-134 45 133 105 93 35-93 122-110" stroke="#9c84b4" strokeWidth="2" strokeDasharray="5 8"/>
-        <g transform="rotate(-9 248 214)" filter="url(#story-shadow)"><path d="M158 101h156l29 32v188H158z" fill="url(#story-paper)" stroke="#aa98b9"/><path d="M314 101v32h29" stroke="#aa98b9"/><path d="M185 151h82m-82 23h106m-106 23h65" stroke="#c1b3c9" strokeWidth="2" strokeLinecap="round"/><path d="m183 218 99-5m-100 2 105 9m-106-4 90 12" stroke="#9b7cae" strokeWidth="2" strokeLinecap="round"/><text x="184" y="276" className="sketch-hand">try again.</text><path d="M183 284q49 8 102-3" stroke="#b49bcd" strokeWidth="3" strokeLinecap="round"/></g>
+        <g transform="rotate(-9 248 214)" filter="url(#story-shadow)"><path d="M158 101h156l29 32v188H158z" fill="url(#story-paper)" stroke="#aa98b9"/><path d="M314 101v32h29" stroke="#aa98b9"/><path d="M185 151h82m-82 23h106m-106 23h65" stroke="#c1b3c9" strokeWidth="2" strokeLinecap="round"/><path d="m183 218 99-5m-100 2 105 9m-106-4 90 12" stroke="#9b7cae" strokeWidth="2" strokeLinecap="round"/><text x="184" y="276" className="sketch-hand">Find a balance.</text><path d="M183 284q49 8 102-3" stroke="#b49bcd" strokeWidth="3" strokeLinecap="round"/></g>
         <g className="sketch-float"><path d="M366 228a37 37 0 1 1-4 49m4-49-19 2m19-2-1 20" stroke="#79559a" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/></g>
         <path d="m94 98 6 14 16 2-13 10 2 16-13-9-15 6 5-15-10-12 16 1z" stroke="#b19ac4" strokeWidth="2"/>
-        <text x="59" y="361" transform="rotate(-5 59 361)" className="sketch-hand">a bend. not the end.</text>
+        <text x="59" y="361" transform="rotate(-5 59 361)" className="sketch-hand">Make time for both.</text>
       </>}
       {scene === 2 && <>
         <motion.path {...draw} d="M52 297c82 62 161 4 120-31s-74 39 6 41 158-53 200-153" stroke="#9c84b4" strokeWidth="2" strokeDasharray="5 8"/>
@@ -57,7 +57,7 @@ function Sketch({ scene }: { scene: number }) {
         <g transform="rotate(-9 146 192)"><rect x="57" y="151" width="139" height="73" rx="9" fill="#e6ddee" stroke="#c9b8d9"/><circle cx="75" cy="170" r="3" fill="#a78abd"/><path d="M86 170h29" stroke="#b6a1c6" strokeWidth="2"/><text x="73" y="202" className="sketch-project">GoThreadly</text></g>
         <g transform="rotate(7 271 323)"><rect x="224" y="292" width="128" height="62" rx="9" fill="#fffaf0" stroke="#cfbdad"/><path d="M240 309h21m-21 8h48" stroke="#c3b298" strokeWidth="2"/><text x="240" y="339" className="sketch-project">StockFlow</text></g>
         <path d="m107 91 5 14 15 4-15 4-5 15-4-15-15-4 15-4z" fill="#b19ac4"/>
-        <text x="55" y="372" transform="rotate(-6 55 372)" className="sketch-hand">let’s see where this goes.</text>
+        <text x="55" y="372" transform="rotate(-6 55 372)" className="sketch-hand">Let’s see where this goes.</text>
       </>}
     </svg>
     <span className="story-art-label">{chapters[scene].label}</span>
