@@ -32,14 +32,7 @@ export const projects = [
     tags: ['Inventory tracking', 'Procurement', 'AI-assisted building'],
     link: 'https://stockflow-inventory-gfw0.onrender.com/', label: 'Explore StockFlow', visual: 'inventory',
   },
-  {
-    number: '05', name: 'Vaishnav Bazaar', category: 'Business / Retail',
-    status: 'Three-member team', headline: 'Running a retail business from a student stall.',
-    description: 'In a three-member undergraduate team, I handled sourcing, supplier coordination, pricing, and customer sales for our retail stall.',
-    detail: 'The venture gave me hands-on experience in supplier negotiations, costs, and margins.',
-    result: '₹44,300', resultLabel: 'Team revenue · 120+ customers · 30% gross margin',
-    tags: ['Sourcing & pricing', 'Retail operations', 'Customer sales'], visual: 'retail',
-  },
+
 ];
 
 export const experiences = [
@@ -74,7 +67,7 @@ export const capabilities = [
   {
     name: 'Business & operations', icon: 'business',
     description: 'Sourcing, pricing, customer sales, order fulfilment, and supplier coordination.',
-    examples: [{ name: 'Business ventures', href: '#project-03' }, { name: 'Internships', href: '#experience' }],
+    examples: [{ name: 'Crystal business', href: '#project-03' }, { name: 'Internships', href: '#experience' }],
   },
 ];
 
