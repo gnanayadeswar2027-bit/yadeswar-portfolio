@@ -24,7 +24,9 @@ Use one dedicated contact section at the bottom. LinkedIn is the primary action 
 
 Write in a personal, concise, confident voice. Use plain words and first person for Yadeswar's own work. Attribute team revenue to the team. Describe planned product capabilities as planned. Avoid expert claims, invented outcomes, motivational slogans, and unnecessary corporate language.
 
-Use British/Indian spelling consistently: maths, fulfilment, enquiries, organised/organising. Preserve official names and supplied project URLs. Spell the instrument **mridangam**. Use GoThreadly, StockFlow, Make, n8n, Google AI Studio, Google Stitch, Microsoft Excel, PowerPoint, Canva, Lovable, Cursor, and Zoho ERP consistently.
+Use British/Indian spelling consistently: maths, fulfilment, enquiries, organised/organising. Preserve official names and supplied project URLs. Spell the instrument **mridangam**. Use GoThreadly, StockFlow, Make, n8n, Google AI Studio, Google Stitch, Microsoft Excel, PowerPoint, Canva, Figma, Midjourney, Lovable, Cursor, Zoho ERP, and Zoho OMS consistently.
+
+The final About chapter looks forward with curiosity and excitement about building. It does not repeat the project list or use fresher, beginner, or expert labels. StockFlow remains in Selected work.
 
 The school story is specific: in Class 9, Yadeswar focused on cricket while training for under-16 competition, failed the final maths exam, and took a retest. The lesson concerns balancing cricket and school and managing multiple commitments. Do not add a retest result, examination score, selection outcome, or later academic achievement.
 
@@ -34,4 +36,4 @@ Use short fades, small translations, gentle floating objects, and subtle page tu
 
 ## Before publishing
 
-Check every section and expanded project description. Exercise all three chapters, previous/next/replay, arrow keys, Home/End, navigation, and image links. Verify one primary contact button, four projects, three experiences, two qualifications, and ten supplied tools. Check phone, tablet, and desktop layouts for clipping and overflow. Confirm exact link destinations, locally hosted images, and anonymous access to the production URL. Build with TypeScript checking, save source on GitHub, then deploy the same public Vercel address.
+Check every section and expanded project description. Exercise all three chapters, previous/next/replay, arrow keys, Home/End, navigation, and image links. Verify one primary contact button, four projects, three experiences, two qualifications, and thirteen supplied tools. Check phone, tablet, and desktop layouts for clipping and overflow. Confirm exact link destinations, locally hosted images, and anonymous access to the production URL. Build with TypeScript checking, save source on GitHub, then deploy the same public Vercel address.
