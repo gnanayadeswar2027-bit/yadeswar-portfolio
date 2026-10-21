@@ -18,6 +18,8 @@ Retain the existing section order: Home, Selected work, About, Experience, Educa
 
 Keep consistent section gutters, numbered labels, fine dividers, rounded image frames, and pill-shaped actions. The notebook has three visitor-controlled chapters with Previous, Next, Replay, and accessible tabs. Its drawings support the story; they are not evidence of unprovided achievements.
 
+Keep achievements within the Masters’ Union education entry under “Achievements · More to go.” with two team outcomes: runner-up in the Marketing ODC for goSTOPS, and a top-10 team shortlist in the Statistics ODC for Perfora. Both results are scoped to Masters’ Union’s PGP cohort.
+
 Use one dedicated contact section at the bottom. LinkedIn is the primary action and email is a separate option. The Home section links to About; the navigation can link to Contact. Do not repeat contact buttons in Home or About.
 
 ## Voice and facts
